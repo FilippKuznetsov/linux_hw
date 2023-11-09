@@ -1,0 +1,127 @@
+   0 rename
+   1 whoami
+   2 pwd
+   3 ls
+   4 ls --help
+   5 ls -a
+   6 ls -l
+   7 ls -la
+   8 ls --help
+   9 clear
+  10 history
+  11 cd
+  12 cd ..
+  13 ls -a
+  14 ls -la
+  15 whoami
+  16 cd /home
+  17 pwd
+  18 mkdir user1
+  19 ls
+  20 cd /user1
+  21 cd user1/
+  22 mkdir task1
+  23 ls
+  24 cd 
+  25 cd task1/
+  26 cd task1
+  27 cd /home/user1/task1
+  28 touch file.txt
+  29 ls
+  30 cd ..
+  31 ls
+  32 tree
+  33 mkdir user2
+  34 ls
+  35 cd user2
+  36 mkdir task2
+  37 cd task2
+  38 touch file.txt
+  39 tree /home
+  40 fi
+  41 /home/user1/task1/file.txt
+  42 /home/user2/task2/file.txt 
+  43 ls
+  44 mv file.txt file2.txt
+  45 ls
+  46 cd
+  47 mkdir /home/user3/task3
+  48 mkdir -p /home/user3/task3/task3.txt
+  49 ls
+  50 tree
+  51 cd /user3
+  52 cd
+  53 cd task3
+  54 cd /task3
+  55 cd /home/user3
+  56 cd
+  57 rm -r /user3
+  58 rm -r /home/user3
+  59 mkdir -p /home/user3/task3/file3.txt
+  60 tree
+  61 tree /home
+  62 ls /home/user2/task2/file2.txt 
+  63 ls /home/user2/task2/
+  64 cd
+  65 mkdir -p /tmp
+  66 mkdir -p /opt
+  67 cd /opt/
+  68 ls
+  69 mkdir name
+  70 ls
+  71 pwd
+  72 cd /name
+  73 cd /name/
+  74 cd name
+  75 pwd
+  76 mkdir user
+  77 ls
+  78 cd user
+  79 tuch file.txt
+  80 touch file.txt
+  81 ls
+  82 cd /
+  83 mkdir -p /opt/name2/user2/
+  84 touch /opt/name2/user2/file2.txt
+  85 ls
+  86 copy --help
+  87 cp --help
+  88 cp /opt/name/user/file.txt /tmp/newFile.txt
+  89 clear
+  90 cp /opt/name/user /tmp
+  91 cp -r /opt/name/user /tmp
+  92 tree /tmp
+  93 mv /opt/name2/user2/file2.txt 
+  94 mv /opt/name2/user2/file2.txt /tmp/newFile2.txt
+  95 tree /opt/
+  96 tree /tmp/
+  97 clear
+  98 tree /tmp/
+  99 rm /tmp/user/
+ 100 rm -r /tmp/user/
+ 101 tree /tmp/
+ 102 cd /tmp/
+ 103 mkdir name2
+ 104 cd /name2
+ 105 cd /name2/
+ 106 tree /tmp/
+ 107 cd /tmp/name2/
+ 108 mv /tmp/newFile.txt /tmp/name2/
+ 109 tree /tmp/
+ 110 mv /tmp/newFile2.txt /tmp/name2/
+ 111 tree /tmp/
+ 112 clear
+ 113 cd
+ 114 cd /tmp/
+ 115 rm -ri /tmp/name2/
+ 116 rm -ri /tmp/
+ 117 pwd
+ 118 tree 
+ 119 cd
+ 120 tree ..
+ 121 clear
+ 122 cd /
+ 123 rm -ri /tmp/
+ 124 tree /
+ 125 clear
+ 126 history > history.txt
